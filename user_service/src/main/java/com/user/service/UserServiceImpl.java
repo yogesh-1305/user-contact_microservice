@@ -1,12 +1,12 @@
 package com.user.service;
 
-import com.user.user_service.entity.User;
+import com.user.entity.User;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class UserServiceImpl implements com.user.user_service.service.UserService {
+public class UserServiceImpl implements com.user.service.UserService {
 
     List<User> list = List.of(
             new User(1L, "Yogesh Singh", "8954667361"),
